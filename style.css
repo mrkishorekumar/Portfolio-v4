@@ -68,7 +68,7 @@ p {
 
 	color: transparent;
 	/* -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.103); */
-	-webkit-text-stroke: 1.5px #5a24ed2f;
+	-webkit-text-stroke: 1.5px black;
 	z-index: -1;
 }
 .buttons {
@@ -145,6 +145,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-radius: 5px;
 }
 #navigation .nav-icon svg {
 	width: 80%;
@@ -408,13 +409,13 @@ p {
 	flex: 1;
 }
 #services .item:nth-child(1):hover {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(8 69 241 / 35%);
 }
 #services .item:nth-child(2):hover {
 	background-color: rgba(0, 255, 115, 0.151);
 }
 #services .item:nth-child(3):hover {
-	background-color: #000000;
+	background-color: #cbbef093;
 }
 #services .item .icon {
 	width: 50px;
@@ -685,7 +686,7 @@ p {
 	background-color: var(--body-bg);
 	padding: 5rem 3rem;
 	border-radius: 12px;
-	box-shadow: 0px 0px 20px #00000028;
+	box-shadow: 0px 0px 10px #00000028;
 	z-index: 2;
 }
 #projects .item:nth-of-type(even) .right {
@@ -699,7 +700,7 @@ p {
 	overflow: hidden;
 	border-radius: 12px;
 	overflow: hidden;
-	box-shadow: 0px 0px 20px #000000;
+	box-shadow: 0px 0px 10px #000000;
 	position: relative;
 }
 #projects .item .left .img::after {
@@ -837,6 +838,12 @@ p {
 	list-style: none;
 	font-size: 2rem;
 	gap: 2rem;
+}
+#contact .left .social-info ul li a:hover {
+	background-color: black;
+	color: white;
+	padding: 12px;
+	border-radius: 5px;
 }
 #contact .left .social-info ul li a {
 	color: var(--primary-color);
