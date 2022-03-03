@@ -52,7 +52,6 @@ p {
 	letter-spacing: 0.2rem;
 	text-align: center;
 	position: relative;
-	margin-bottom: 10rem;
 }
 .section-heading::before {
 	content: attr(data-outline);
